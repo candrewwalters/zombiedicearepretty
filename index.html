@@ -86,43 +86,6 @@ function goNuts() {
 
 }
 
-// function roll( result ) {
-//
-// // //  $('die1').style.transform='rotateX(' + randomNumber(25)*90 + 'deg) rotateY(' + randomNumber(25)*90 + 'deg) rotateZ(' + randomNumber(25)*90 + 'deg) translateX(' + ( 10 + randomNumber(10) ) + 'vw) translateY(' + ( 10 + randomNumber(10) ) + 'vh)';
-// //
-// // $('die1').style.transform='rotateX(' + randomNumber(25)*90 + 'deg) rotateY(' + randomNumber(25)*90 + 'deg) rotateZ(' + randomNumber(25)*90 + 'deg)';
-// //
-// // $('dieMove').style.transform='translateX(' + ( 10 + randomNumber(80) ) + 'vw) translateY(' + ( 10 + randomNumber(80) ) + 'vh)';
-//
-//   let newX = ( randomNumber( 4 ) + 4 * alternateRoll ) * 360;
-//   let newY = ( randomNumber( 4 ) + 4 * alternateRoll ) * 360;
-//   // let newZ = ( randomNumber( 16 ) + 4 ) * 90;
-//
-//   // let newX = 0;
-//   // let newY = 0;
-//   let newZ = 0;
-//
-//
-//   switch( result ) {
-//     case 1:
-//       newX -= 90;
-//       break;
-//     case 2:
-//       newX += 90;
-//       break;
-//     case 3:
-//       newY += 90;
-//       break;
-//     case 4:
-//       newY -= 90;
-//       break;
-//     case 5:
-//       newX += 180;
-//       break;
-//     case 6:
-//       newX += 0;
-//       break;
-//   }
 
   function rollAll(  ) {
 
@@ -250,10 +213,7 @@ function $( element ) {
   height: 90px;
   width: 90px;
   padding: 0px;
-  border: 1px solid green;
-  /* background-color: orange;
-  border: 1px solid green; */
-  /* border-radius: 20px; */
+  /*border: 1px solid green; */
 }
 
 
@@ -321,38 +281,7 @@ function $( element ) {
   to {transform: rotateY(360deg) rotateX(45deg);}
 }
 
-.tetraFace {
-  position: absolute;
-  height: 98px;
-  width: 90px;
-  padding: 0px;
-  /*border: 1px solid green; */
-}
 
-.tetraFace1 {
-
-  transform: rotateX(19.5deg) translateZ(18.367px);
-
-
-}
-
-.tetraFace2 {
-
-  transform: rotateZ(180deg) rotateX(90deg) translateZ(18.367px);
-
-}
-
-.tetraFace3 {
-
-  transform: rotateX(19.5deg) rotateY(120deg) translateZ(18.367px);
-
-}
-
-.tetraFace4 {
-
-  transform: rotateY(90deg) translateZ(45px);
-
-}
 
 .divCenteredText {
   position: absolute;
